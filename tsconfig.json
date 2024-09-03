@@ -1,0 +1,9 @@
+{
+  "include": "src",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ES2023",
+    "strict": true,
+    "outDir": "dist"
+  }
+}

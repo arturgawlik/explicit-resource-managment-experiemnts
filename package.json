@@ -1,0 +1,20 @@
+{
+    "type": "module",
+    "scripts": {
+        "tsc": "tsc",
+        "babel": "babel --extensions '.ts' ./src --out-dir dist",
+        "start": "node ./dist/main.js"
+    },
+    "dependencies": {
+        "@types/node": "^22.5.2",
+        "core-js": "^3.38.1",
+        "typescript": "^5.5.4"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.25.6",
+        "@babel/core": "^7.25.2",
+        "@babel/plugin-proposal-explicit-resource-management": "^7.24.7",
+        "@babel/preset-env": "^7.25.4",
+        "@babel/preset-typescript": "^7.24.7"
+    }
+}

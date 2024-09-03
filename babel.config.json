@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "22.8.0"
+        },
+        "modules": false,
+        "useBuiltIns": "usage",
+        "corejs": { "version": "3.38.1", "proposals": true }
+      }
+    ],
+    ["@babel/preset-typescript"]
+  ],
+  "plugins": [["@babel/plugin-proposal-explicit-resource-management"]]
+}
